@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install",
-    "runphp": "php psa_PHPAPNS-sandbox.php",
+    "startphp": "php psa_PHPAPNS-sandbox.php",
     "start": " node index_copy.js"
   },
   "author": "",
