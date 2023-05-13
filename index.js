@@ -15,6 +15,11 @@ const startSerser = () => {
       .json({ message: "The server is running successfully" });
   });
 
+  app.use(`/test`, (req, res) => {
+    console.log("--1111");
+    return res.status(200).json({ message: "test result" });
+  });
+
   app.listen(8088, () => {
     console.log(`Server is running on prort 8088`);
   });
