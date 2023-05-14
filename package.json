@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm install",
     "startphp": "php psa_PHPAPNS-sandbox.php",
-    "start": " node index_copy.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
