@@ -9,14 +9,14 @@ const startSerser = () => {
   app.use(express.json({ limit: "50mb" }));
 
   app.use(`/`, (req, res) => {
-    console.log("--1111");
+    console.log("Running index...");
     return res
       .status(200)
       .json({ message: "The server is running successfully" });
   });
 
   app.use(`/test`, (req, res) => {
-    console.log("--1111");
+    console.log("Running test...");
     return res.status(200).json({ message: "test result" });
   });
 
