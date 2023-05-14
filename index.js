@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 
 const startSerser = () => {
-  console.log("11111");
   const app = express();
   app.use(cors());
   app.use(express.urlencoded({ extended: false, limit: "50mb" }));
